@@ -1,4 +1,6 @@
-// take an array of length and find out the students those are padd
+// take an array of length and find out the students those are 
+// pass or fail corresponding to their marks
+
 let numbers=[7,16,35,29,11,0,15,33,17,25];
 let grade=numbers.filter((ak)=>{
     if (ak>=16){
