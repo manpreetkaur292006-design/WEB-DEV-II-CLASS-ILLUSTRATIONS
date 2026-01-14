@@ -17,8 +17,8 @@ demo()
 
 
 // using return in the function
-// return ek he baar use hota aur uski wali ko console karana padta hai
-// yeh arrow function me nahi kar sakte usme by default return hai
+// return ek he baar use hota aur uski value ko console karana padta hai
+// yeh arrow function me nahi kar sakte usme by default return hota hai
 // arrow function doesn't need a return statement
 
 function demo(){
