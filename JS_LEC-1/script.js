@@ -6,7 +6,6 @@ console.log("demo")
 
 demo()
 
-
 // arrow function
 
 const demo=()=>{
@@ -16,7 +15,6 @@ const demo=()=>{
 demo()
 
 // we are treating the variable as the function in  the arrow function
-
 
 // using return in the function
 // return ek he baar use hota aur uski value ko console karana padta hai
