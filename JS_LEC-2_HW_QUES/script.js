@@ -176,9 +176,16 @@ console.log(0.1+0.2===0.3);
 
 console.log([2]==[2]);
 // OUTPUT : false
-// EXPLAINATION :  
+// EXPLAINATION : [2] == [2] outputs false because arrays compare by reference (memory address), not content.
+// [2] creates NEW array → different memory location
+// [2] creates NEW array → different memory location  
+// == checks "same object?" → false
 
 
 // console.log([2]===[2]);
 // OUTPUT : false
-// EXPLAINATION : 
+// EXPLAINATION : [2] === [2] outputs false because strict equality compares reference + type.
+// === checks: SAME TYPE + SAME REFERENCE
+// [2] → Array object #1 (memory addr: 0x1234)
+// [2] → Array object #2 (memory addr: 0x5678) 
+// Result: false (different objects)
