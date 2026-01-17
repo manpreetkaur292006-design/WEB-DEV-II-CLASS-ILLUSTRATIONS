@@ -1,53 +1,53 @@
 console.log(window);   
-// OUTPUT : 
+// OUTPUT : Window {0: Window, window: Window, self: Window, document: document, name: '', location: Location, …}
 
 console.log(1+"1");
-// OUTPUT : 
+// OUTPUT : 11
 
 console.log(1-"1");
-// OUTPUT : 
+// OUTPUT : 0
 
 console.log("1"-1);
-// OUTPUT : 
+// OUTPUT : 0
 
 console.log("5"*"2");
-// OUTPUT : 
+// OUTPUT : 10
 
 console.log(true+true);
-// OUTPUT : 
+// OUTPUT : 2
 
 console.log(true-false);
-// OUTPUT : 
+// OUTPUT : 1
 
 console.log(!!false);
-// OUTPUT : 
+// OUTPUT : false
 
 console.log(!!"false");
-// OUTPUT : 
+// OUTPUT : true
 
 console.log(!![]);
-// OUTPUT : 
+// OUTPUT : true
 
 console.log(![]);
-// OUTPUT : 
+// OUTPUT : false
 
 console.log([]+[]);
-// OUTPUT : 
+// OUTPUT : nothing will print empty space will be displayed
 
 console.log([1,2]+[3,4]);
-// OUTPUT : 
+// OUTPUT : 1,23,4
 
 console.log([]+{});
-// OUTPUT : 
+// OUTPUT : [object Object]
 
 console.log(0.1+0.2==0.3);
-// OUTPUT : 
+// OUTPUT : false
 
 console.log(0.1+0.2===0.3);
-// OUTPUT : 
+// OUTPUT : false
 
 console.log([2]==[2]);
-// OUTPUT : 
+// OUTPUT : false
 
 // console.log([2]===[2]);
-// OUTPUT : 
+// OUTPUT : false
