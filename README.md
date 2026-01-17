@@ -65,14 +65,5 @@ Happy Learning! 💻🎓
 
 ---
 
-### 📌 How to Add This to Your Repo
-
-1. Save this content in a file named **`README.md`**.
-2. Place it in the **root folder** of your GitHub repository.
-3. Commit and push to your GitHub:
-   ```bash
-   git add README.md
-   git commit -m "Enhance README"
-   git push
 
 
