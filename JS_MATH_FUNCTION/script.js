@@ -66,7 +66,8 @@ console.log(maxNumber)
  let minNumber = Math.min(10, 5, 20, 8);
  console.log("Minimum number:")
  console.log(minNumber)
- // Output : 
+ // Output : Minimum number:
+// 5
 
 // 8. Math.pow(x,y) : returns the value of x to the power of y
  let result = Math.pow(2, 3);
