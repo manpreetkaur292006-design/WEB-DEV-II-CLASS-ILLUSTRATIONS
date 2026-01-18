@@ -86,7 +86,8 @@ console.log(squareRoot)
 // 10. Math.PI : A predefined constant representing the mathematical constant pi
  console.log("The value of PI :")
  console.log(Math.PI)
- // Output : 
+ // Output : The value of PI :
+// 3.141592653589793
 
 // 11. Math.trunc(x) : returns the integer part of the number by removing the fractional part 
 // effectively truncating the decimal portion
