@@ -7,7 +7,10 @@ console.log("Original number:")
 console.log(num)
 console.log("Absolute number:")
 console.log(abs_val)
-// Output :
+// Output : Original number:
+// -10
+// Absolute number:
+// 10
 
 // 2. Math.round(x) : rounds the number to the nearest interger
 let num2=6.776;
@@ -78,4 +81,3 @@ console.log(squareRoot)
  console.log("Original number :")
  console.log(truncated)
  // Output :
- 
