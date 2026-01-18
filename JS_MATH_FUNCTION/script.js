@@ -8,9 +8,9 @@ console.log(num)
 console.log("Absolute number:")
 console.log(abs_val)
 // Output : Original number:
-// -10
-// Absolute number:
-// 10
+//          -10
+//          Absolute number:
+//          10
 
 // 2. Math.round(x) : rounds the number to the nearest interger
 let num2=6.776;
@@ -20,9 +20,9 @@ console.log(num2)
 console.log("Rounded number:")
 console.log(round_num2)
 // Output : Original number:
-// 6.776
-// Rounded number:
-// 7
+//          6.776
+//          Rounded number:
+//          7
 
 // 3. Math.ceil(x) : rounds the number up to the nearest integer
 let num3=6.776;
@@ -32,9 +32,9 @@ console.log(num3)
 console.log("ceil number:")
 console.log(ceil_num3)
 // Output : Original number:
-// 6.776
-// ceil number:
-// 7
+//          6.776
+//          ceil number:
+//          7
 
 // 4. Math.floor(x) : rounds the number down to the nearest integer
 let num4=6.776;
@@ -44,50 +44,50 @@ console.log(num4)
 console.log("floor number:")
 console.log(floor_num4)
 // Output : Original number:
-// 6.776
-// floor number:
-// 6
+//          6.776
+//          floor number:
+//          6
 
 // 5. Math.random(x) : generates a random decimal number between 0(inclusive) and 1(exclusive)
 let random_num=Math.random();
 console.log("Random number:")
 console.log(random_num)
 // Output : Random number:
-// 0.0013429269789246856
+//          0.0013429269789246856
 
 // 6. Math.max(x,y,z,...) : returns the largest of Zero or more numbers
 let maxNumber = Math.max(10, 5, 20, 8);
 console.log("Maximum number:")
 console.log(maxNumber)
 // Output : Maximum number:
-// 20
+//          20
 
 // 7. Math.min(x,y,z,...) : returns the smallest of Zero or more numbers
  let minNumber = Math.min(10, 5, 20, 8);
  console.log("Minimum number:")
  console.log(minNumber)
  // Output : Minimum number:
-// 5
+//           5
 
 // 8. Math.pow(x,y) : returns the value of x to the power of y
  let result = Math.pow(2, 3);
  console.log("2 to the power 3 is :")
  console.log(result)
 // Output : 2 to the power 3 is :
-// 8
+//          8
 
 // 9. Math.sqrt(x) : returns the square root of the number
 let squareRoot = Math.sqrt(25);
 console.log("Sqaure root of 25 is :")
 console.log(squareRoot)
 // Output : Sqaure root of 25 is :
-// 5
+//          5
 
 // 10. Math.PI : A predefined constant representing the mathematical constant pi
  console.log("The value of PI :")
  console.log(Math.PI)
  // Output : The value of PI :
-// 3.141592653589793
+//           3.141592653589793
 
 // 11. Math.trunc(x) : returns the integer part of the number by removing the fractional part 
 // effectively truncating the decimal portion
@@ -98,6 +98,6 @@ console.log(squareRoot)
  console.log("Truncated number :")
  console.log(truncated)
 // Output : Original number :
-// 5.78
-// Truncated number :
-// 5
+//          5.78
+//          Truncated number :
+//          5
