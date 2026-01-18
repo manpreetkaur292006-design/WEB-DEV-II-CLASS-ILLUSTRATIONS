@@ -31,7 +31,10 @@ console.log("Original number:")
 console.log(num3)
 console.log("ceil number:")
 console.log(ceil_num3)
-// Output : 
+// Output : Original number:
+// 6.776
+// ceil number:
+// 7
 
 // 4. Math.floor(x) : rounds the number down to the nearest integer
 let num4=6.776;
