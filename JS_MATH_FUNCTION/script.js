@@ -59,13 +59,14 @@ console.log(random_num)
 let maxNumber = Math.max(10, 5, 20, 8);
 console.log("Maximum number:")
 console.log(maxNumber)
-// Output :
+// Output : Maximum number:
+// 20
 
 // 7. Math.min(x,y,z,...) : returns the smallest of Zero or more numbers
  let minNumber = Math.min(10, 5, 20, 8);
  console.log("Minimum number:")
  console.log(minNumber)
- // Output :
+ // Output : 
 
 // 8. Math.pow(x,y) : returns the value of x to the power of y
  let result = Math.pow(2, 3);
