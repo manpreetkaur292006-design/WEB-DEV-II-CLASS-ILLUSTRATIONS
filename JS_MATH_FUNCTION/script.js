@@ -52,7 +52,8 @@ console.log(floor_num4)
 let random_num=Math.random();
 console.log("Random number:")
 console.log(random_num)
-// Output :
+// Output : Random number:
+// 0.0013429269789246856
 
 // 6. Math.max(x,y,z,...) : returns the largest of Zero or more numbers
 let maxNumber = Math.max(10, 5, 20, 8);
