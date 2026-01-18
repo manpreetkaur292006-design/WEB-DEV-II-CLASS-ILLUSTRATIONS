@@ -94,5 +94,10 @@ console.log(squareRoot)
  let number  = 5.78;
  let truncated = Math.trunc(number);
  console.log("Original number :")
+ console.log(number)
+ console.log("Truncated number :")
  console.log(truncated)
- // Output :
+// Output : Original number :
+// 5.78
+// Truncated number :
+// 5
