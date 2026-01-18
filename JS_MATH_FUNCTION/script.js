@@ -80,12 +80,13 @@ console.log(maxNumber)
 let squareRoot = Math.sqrt(25);
 console.log("Sqaure root of 25 is :")
 console.log(squareRoot)
-// Output :
+// Output : Sqaure root of 25 is :
+// 5
 
 // 10. Math.PI : A predefined constant representing the mathematical constant pi
  console.log("The value of PI :")
  console.log(Math.PI)
- // Output :
+ // Output : 
 
 // 11. Math.trunc(x) : returns the integer part of the number by removing the fractional part 
 // effectively truncating the decimal portion
