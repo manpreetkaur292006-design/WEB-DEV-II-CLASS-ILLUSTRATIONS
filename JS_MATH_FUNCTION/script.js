@@ -19,7 +19,10 @@ console.log("Original number:")
 console.log(num2)
 console.log("Rounded number:")
 console.log(round_num2)
-// Output :
+// Output : Original number:
+// 6.776
+// Rounded number:
+// 7
 
 // 3. Math.ceil(x) : rounds the number up to the nearest integer
 let num3=6.776;
@@ -28,7 +31,7 @@ console.log("Original number:")
 console.log(num3)
 console.log("ceil number:")
 console.log(ceil_num3)
-// Output :
+// Output : 
 
 // 4. Math.floor(x) : rounds the number down to the nearest integer
 let num4=6.776;
