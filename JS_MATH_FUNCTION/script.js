@@ -73,7 +73,8 @@ console.log(maxNumber)
  let result = Math.pow(2, 3);
  console.log("2 to the power 3 is :")
  console.log(result)
- // Output :
+// Output : 2 to the power 3 is :
+// 8
 
 // 9. Math.sqrt(x) : returns the square root of the number
 let squareRoot = Math.sqrt(25);
