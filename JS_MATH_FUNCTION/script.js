@@ -26,7 +26,7 @@ console.log(round_num2)
 
 // 3. Math.ceil(x) : rounds the number up to the nearest integer
 let num3=6.776;
-let ceil_num3=Math.round(num3);
+let ceil_num3=Math.ceil(num3);
 console.log("Original number:")
 console.log(num3)
 console.log("ceil number:")
@@ -38,12 +38,15 @@ console.log(ceil_num3)
 
 // 4. Math.floor(x) : rounds the number down to the nearest integer
 let num4=6.776;
-let floor_num4=Math.round(num4);
+let floor_num4=Math.floor(num4);
 console.log("Original number:")
 console.log(num4)
 console.log("floor number:")
 console.log(floor_num4)
-// Output :
+// Output : Original number:
+// 6.776
+// floor number:
+// 6
 
 // 5. Math.random(x) : generates a random decimal number between 0(inclusive) and 1(exclusive)
 let random_num=Math.random();
