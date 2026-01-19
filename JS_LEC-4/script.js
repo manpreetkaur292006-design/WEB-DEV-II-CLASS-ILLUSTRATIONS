@@ -46,3 +46,8 @@ function pallindrome(){
 }
 console.log(pallindrome())
 
+// QUESTION - 4 :
+// remove duplicate elements from an array
+
+// QUESTION - 5 :
+// move all zeroes to the end of the array
