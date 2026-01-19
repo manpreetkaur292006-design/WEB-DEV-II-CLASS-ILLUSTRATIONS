@@ -5,19 +5,21 @@ let rev=[]
 while (arr.length>0){
     rev.push(arr.pop())
 }
-console.log(reverse)
+console.log(rev) 
+// Output : [5,4,3,2,1]
 
 // QUESTION - 2 :
 // Remove all the negative numbers from an array
 let array=[5,-7,12,-6,-13,15,2]
 let posInt=[]
-while (arr.length>0){
-    let val=arr.shift();
+while (array.length>0){
+    let val=array.shift();
     if (val>0){
         posInt.push(val);
     } 
 }
 console.log(posInt)
+// Output : [ 5, 12, 15, 2 ]
 
 // QUESTION - 3 :
 // check that array is pallindrome or not
@@ -45,6 +47,7 @@ function pallindrome(){
     return "Pallindrome"
 }
 console.log(pallindrome())
+// Output : Pallindrome
 
 // HOMEWORK QUESTIONS
 
@@ -58,6 +61,7 @@ console.log(pallindrome())
 setTimeout(()=>{
     console.log("Manpreet");
 },1000)
+// Output : Manpreet (after 1000 milli seconds)
 
 // This function will print the name Manpreet after 1000 milliseconds on the console
 
@@ -66,5 +70,9 @@ setTimeout(()=>{
 for (let a=0; a<=3; a++){
     setTimeout(()=>{
         console.log(a);
-    },1000)
+    },2000)
 }
+// Output : 0
+//          1
+//          2
+//          3  (after 2000 milli seconds)
