@@ -46,6 +46,8 @@ function pallindrome(){
 }
 console.log(pallindrome())
 
+// HOMEWORK QUESTIONS
+
 // QUESTION - 4 :
 // remove duplicate elements from an array
 

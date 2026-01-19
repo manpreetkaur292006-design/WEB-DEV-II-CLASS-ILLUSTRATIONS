@@ -52,10 +52,6 @@ Use the illustrations for revising concepts before tests or practical assignment
 
 Try modifying code examples to experiment with the concepts you learned.
 
-## 📌 License
-
-This repository is for learning and personal use. If you’d like to share or reuse these illustrations elsewhere, please give credit to the original author (Manpreet Kaur).
-
 ## 🙌 Connect / Feedback
 
 If you want to suggest improvements, add content, or contribute notes, feel free to open an issue or send a pull request!
