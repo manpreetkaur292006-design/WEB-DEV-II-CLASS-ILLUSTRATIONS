@@ -19,3 +19,30 @@ while (arr.length>0){
 }
 console.log(posInt)
 
+// QUESTION - 3 :
+// check that array is pallindrome or not
+function pallindrome(){
+    let arr=[1,2,3,2,1]
+    let original=[]
+    let reverse=[]
+
+    // push the given array elements into original array
+    for (let i=0; i<arr.length; i++){
+        original.push(arr[i])
+    }
+
+    // reverse the given array
+    while (arr.length>0){
+        reverse.push(arr.pop())
+    }
+
+    // checking elements of the array
+    for (let i=0; i<original.length; i++){
+        if (original[i]!==reverse[i]){
+            return "Not Pallindrome"
+        }
+    }
+    return "Pallindrome"
+}
+console.log(pallindrome())
+
