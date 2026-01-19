@@ -54,8 +54,27 @@ console.log(pallindrome())
 // QUESTION - 4 :
 // remove duplicate elements from an array
 
+
+
 // QUESTION - 5 :
 // move all zeroes to the end of the array
+let array1 = [0,1,0,2,3,4,0];
+let count = 0;  // Tracks non-zero position
+
+// Move non-zeros to front
+for (let i = 0; i < array1.length; i++) {
+    if (array1[i] !== 0) {
+        array1[count++] = array1[i];
+    }
+}
+// Fill rest places with zeros
+while (count < array1.length) {
+    array1[count++] = 0;
+}
+
+console.log(array1);  
+// Output : [1,2,3,4,0,0,0]
+
 
 // CLASS ILUUSTRATION : ON setTimeout()
 setTimeout(()=>{
