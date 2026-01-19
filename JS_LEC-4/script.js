@@ -53,3 +53,18 @@ console.log(pallindrome())
 
 // QUESTION - 5 :
 // move all zeroes to the end of the array
+
+// CLASS ILUUSTRATION : ON setTimeout()
+setTimeout(()=>{
+    console.log("Manpreet");
+},1000)
+
+// This function will print the name Manpreet after 1000 milliseconds on the console
+
+// more examples :
+
+for (let a=0; a<=3; a++){
+    setTimeout(()=>{
+        console.log(a);
+    },1000)
+}
