@@ -9,3 +9,13 @@ console.log(reverse)
 
 // QUESTION - 2 :
 // Remove all the negative numbers from an array
+let array=[5,-7,12,-6,-13,15,2]
+let posInt=[]
+while (arr.length>0){
+    let val=arr.shift();
+    if (val>0){
+        posInt.push(val);
+    } 
+}
+console.log(posInt)
+
