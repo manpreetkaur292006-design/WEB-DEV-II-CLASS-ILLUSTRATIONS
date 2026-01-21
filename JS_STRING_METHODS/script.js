@@ -7,11 +7,12 @@ console.log(sliced)
 // Output : JavaScript
 
 // 2. substring(start,end) : similar to silce but does not accept negative indexes
+// in case of negative index substring will give a different output as compared to slice
 // start (inclusive) and end (exclusive)
 let str1 = "JavaScript is amazing!";
 let sub = str1.substring(11, 17);
-console.log(str1)
-// Output : JavaScript is amazing!
+console.log(sub)
+// Output : is ama
 
 // 3. indexOf() : retrun the first occurance of the specified substring
 const paragraph = 'The quick brown fox jumps over the lazy dog. If the dog barked, was it really lazy?';
