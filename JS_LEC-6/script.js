@@ -7,6 +7,8 @@
 
 // task-1 : find out the occurance of "r" in the given string
 
+// method -1 : my approach of writing the code 
+
 let str="tu mera me tera me tera tu meri"
 let word=str.split("r")
 let len=word.length-1 // it will give the number of elements of the in the list which will be one more than number of r
@@ -14,6 +16,8 @@ let len=word.length-1 // it will give the number of elements of the in the list 
 console.log(word)
 console.log(len)
 
-// types of functions (continue)
+// method -2 : writing the same code logic in a single line 
 
-// self invoking function
+let str1 = "tu meri me tera me tera tu meri"
+let splitstr= str1.split("r").length-1;
+console.log(splitstr)
