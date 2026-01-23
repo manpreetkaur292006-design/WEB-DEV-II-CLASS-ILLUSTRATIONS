@@ -1,7 +1,15 @@
 // DIFFERENT TYPES OF FUNCTION IN JS :-
 
-// 1. REGULAR FUNCTION
-// 2. ARROW FUNCTION
+// 1. REGULAR FUNCTION : Defined using "function" keyword.
+function greet(name){
+    return "Hello, $(name)!";
+}
+console.log(greet("Manpreet"))
+
+// 2. ARROW FUNCTION 
+const greet=(name)=>"Hello, $(name)!";
+console.log(greet("Manpreet"))
+
 // 3. ANONYMOUS FUNCTION
 // 4. FUNCTION EXPRESSION
 // 5. CALLBACK FUNCTION
