@@ -2,13 +2,13 @@
 
 // 1. REGULAR FUNCTION : Defined using "function" keyword.
 function greet(name){
-    return "Hello, $(name)!";
+    return `Hello, ${name}`;
 }
 console.log(greet("Manpreet"))
 
 // 2. ARROW FUNCTION 
-const greet=(name)=>"Hello, $(name)!";
-console.log(greet("Manpreet"))
+const greet2=(name)=>`Hello, ${name}!`;
+console.log(greet2("Manpreet"))
 
 // 3. ANONYMOUS FUNCTION : functions without name.
 setTimeout(function() {
@@ -17,10 +17,10 @@ setTimeout(function() {
 
 // 4. FUNCTION EXPRESSION : this involve defining a function and assigning it to a 
 // variable. They can be named or anonymous.
-const greet = function(name) {
-    return "Hello, ${name}!";
+const greet3 = function(name) {
+    return `Hello, ${name}!`;
 };
-console.log(greet("Manpreet"));
+console.log(greet3("Manpreet"));
 
 // 5. CALLBACK FUNCTION : this function is passed as an argument to another function
 // and is executed after some opertaion has been compleleted.
@@ -35,10 +35,10 @@ executeCallback(logMessage);
 // 6. FIRST-CLASS FUNCTION :  JavaScript treats functions as first-class citizens,
 //  meaning they can be assigned to variables, passed as arguments, and returned from
 //  other functions.
-function greet(name) {
-    return "Hello, ${name}!";
+function greet4(name) {
+    return `Hello, ${name}!`;
 }
-const sayHello = greet;
+const sayHello = greet4;
 console.log(sayHello("Manpreet"));
 
 // 7. HIGHER-ORDER FUNCTION : A higher-order function is a function that accepts
