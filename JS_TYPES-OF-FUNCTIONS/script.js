@@ -27,12 +27,34 @@ console.log(greet("Manpreet"));
 function logMessage() {
     console.log("This is a callback function.");
 }
-
 function executeCallback(callback) {
     callback();
 }
 executeCallback(logMessage);
 
-// 6. FIRST-CLASS FUNCTION
-// 7. HIGHER-ORDER FUNCTION
-// 8. SELF-INVOKING FUNCTION (IIFE)
+// 6. FIRST-CLASS FUNCTION :  JavaScript treats functions as first-class citizens,
+//  meaning they can be assigned to variables, passed as arguments, and returned from
+//  other functions.
+function greet(name) {
+    return "Hello, ${name}!";
+}
+const sayHello = greet;
+console.log(sayHello("Manpreet"));
+
+// 7. HIGHER-ORDER FUNCTION : A higher-order function is a function that accepts
+//  other functions as arguments or returns a function.
+function higherOrderFunction(callback) {
+    callback();
+}
+function logMessage() {
+    console.log("This is a higher-order function.");
+}
+higherOrderFunction(logMessage);
+
+// 8. SELF-INVOKING FUNCTION (IIFE) : A self-invoking function, also known as an 
+// Immediately Invoked Function Expression (IIFE), is a function that is executed 
+// immediately after it is defined.
+(function() {
+    console.log("This is an IIFE.");
+})();
+
