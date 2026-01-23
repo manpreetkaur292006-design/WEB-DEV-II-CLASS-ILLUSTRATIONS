@@ -10,9 +10,29 @@ console.log(greet("Manpreet"))
 const greet=(name)=>"Hello, $(name)!";
 console.log(greet("Manpreet"))
 
-// 3. ANONYMOUS FUNCTION
-// 4. FUNCTION EXPRESSION
-// 5. CALLBACK FUNCTION
+// 3. ANONYMOUS FUNCTION : functions without name.
+setTimeout(function() {
+    console.log("Hello, world!");
+}, 1000);
+
+// 4. FUNCTION EXPRESSION : this involve defining a function and assigning it to a 
+// variable. They can be named or anonymous.
+const greet = function(name) {
+    return "Hello, ${name}!";
+};
+console.log(greet("Manpreet"));
+
+// 5. CALLBACK FUNCTION : this function is passed as an argument to another function
+// and is executed after some opertaion has been compleleted.
+function logMessage() {
+    console.log("This is a callback function.");
+}
+
+function executeCallback(callback) {
+    callback();
+}
+executeCallback(logMessage);
+
 // 6. FIRST-CLASS FUNCTION
 // 7. HIGHER-ORDER FUNCTION
 // 8. SELF-INVOKING FUNCTION (IIFE)
