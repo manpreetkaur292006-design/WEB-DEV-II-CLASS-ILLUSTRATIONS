@@ -5,7 +5,7 @@ function greet(name){
     return `Hello, ${name}`;
 }
 console.log(greet("Manpreet"))
-// Output :
+// Output : Hello, Manpreet
 
 // 2. ARROW FUNCTION 
 const greet2=(name)=>`Hello, ${name}!`;
