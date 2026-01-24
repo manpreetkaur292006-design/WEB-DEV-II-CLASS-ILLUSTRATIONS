@@ -35,7 +35,7 @@ function executeCallback(callback) {
     callback();
 }
 executeCallback(logMessage);
-// Output :
+// Output : This is a callback function.
 
 // 6. FIRST-CLASS FUNCTION :  JavaScript treats functions as first-class citizens,
 //  meaning they can be assigned to variables, passed as arguments, and returned from
