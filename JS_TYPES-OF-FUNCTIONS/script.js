@@ -45,7 +45,7 @@ function greet4(name) {
 }
 const sayHello = greet4;
 console.log(sayHello("Manpreet"));
-// Output :
+// Output : Hello, Manpreet!
 
 // 7. HIGHER-ORDER FUNCTION : A higher-order function is a function that accepts
 //  other functions as arguments or returns a function.
