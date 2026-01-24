@@ -64,5 +64,5 @@ higherOrderFunction(logMessage);
 (function() {
     console.log("This is an IIFE.");
 })();
-// Output :
+// Output : This is an IIFE.
 
