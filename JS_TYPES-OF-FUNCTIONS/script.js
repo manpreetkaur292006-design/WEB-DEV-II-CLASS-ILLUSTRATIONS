@@ -24,7 +24,7 @@ const greet3 = function(name) {
     return `Hello, ${name}!`;
 };
 console.log(greet3("Manpreet"));
-// Output :
+// Output : Hello, Manpreet!
 
 // 5. CALLBACK FUNCTION : this function is passed as an argument to another function
 // and is executed after some opertaion has been compleleted.
