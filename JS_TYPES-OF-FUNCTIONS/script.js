@@ -16,7 +16,7 @@ console.log(greet2("Manpreet"))
 setTimeout(function() {
     console.log("Hello, world!");
 }, 1000);
-// Output :
+// Output : Hello, world!
 
 // 4. FUNCTION EXPRESSION : this involve defining a function and assigning it to a 
 // variable. They can be named or anonymous.
