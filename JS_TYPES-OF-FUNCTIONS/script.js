@@ -10,7 +10,7 @@ console.log(greet("Manpreet"))
 // 2. ARROW FUNCTION 
 const greet2=(name)=>`Hello, ${name}!`;
 console.log(greet2("Manpreet"))
-// Output :
+// Output : Hello, Manpreet!
 
 // 3. ANONYMOUS FUNCTION : functions without name.
 setTimeout(function() {
