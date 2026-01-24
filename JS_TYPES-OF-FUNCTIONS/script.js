@@ -56,7 +56,7 @@ function logMessage() {
     console.log("This is a higher-order function.");
 }
 higherOrderFunction(logMessage);
-// Output :
+// Output : This is a higher-order function.
 
 // 8. SELF-INVOKING FUNCTION (IIFE) : A self-invoking function, also known as an 
 // Immediately Invoked Function Expression (IIFE), is a function that is executed 
