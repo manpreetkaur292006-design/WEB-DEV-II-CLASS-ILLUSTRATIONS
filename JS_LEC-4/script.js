@@ -53,8 +53,13 @@ console.log(pallindrome())
 
 // QUESTION - 4 :
 // remove duplicate elements from an array
-
-
+function removeDuplicates(arr) {
+  return [...new Set(arr)];
+}
+// For example
+const arrayWithDuplicates = [1, 2, 3, 2, 4, 3, 5, 'a', 'a'];
+const uniqueArray = removeDuplicates(arrayWithDuplicates);
+console.log(uniqueArray); // [1, 2, 3, 4, 5, 'a']
 
 // QUESTION - 5 :
 // move all zeroes to the end of the array
