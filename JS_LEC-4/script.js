@@ -8,6 +8,8 @@ while (arr.length>0){
 console.log(rev) 
 // Output : [5,4,3,2,1]
 
+
+
 // QUESTION - 2 :
 // Remove all the negative numbers from an array
 let array=[5,-7,12,-6,-13,15,2]
@@ -20,6 +22,8 @@ while (array.length>0){
 }
 console.log(posInt)
 // Output : [ 5, 12, 15, 2 ]
+
+
 
 // QUESTION - 3 :
 // check that array is pallindrome or not
@@ -49,7 +53,11 @@ function pallindrome(){
 console.log(pallindrome())
 // Output : Pallindrome
 
+
+
 // HOMEWORK QUESTIONS
+
+
 
 // QUESTION - 4 :
 // remove duplicate elements from an array
@@ -60,6 +68,8 @@ function removeDuplicates(arr) {
 const arrayWithDuplicates = [1, 2, 3, 2, 4, 3, 5, 'a', 'a'];
 const uniqueArray = removeDuplicates(arrayWithDuplicates);
 console.log(uniqueArray); // [1, 2, 3, 4, 5, 'a']
+
+
 
 // QUESTION - 5 :
 // move all zeroes to the end of the array
@@ -81,7 +91,9 @@ console.log(array1);
 // Output : [1,2,3,4,0,0,0]
 
 
+
 // CLASS ILUUSTRATION : ON setTimeout()
+
 setTimeout(()=>{
     console.log("Manpreet");
 },1000)
