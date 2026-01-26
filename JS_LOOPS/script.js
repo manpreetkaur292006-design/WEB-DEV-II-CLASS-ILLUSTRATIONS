@@ -55,4 +55,16 @@ while (i < 3) {
     i++;
 }
 
-// 3. DO WHILE LOOP
+// 3. DO WHILE LOOP : The do-while loop is similar to while loop except it executes the code block at least once before checking the condition.
+
+//  SYNTAX :
+//   do {
+//       // Code to execute
+//   } while (condition);
+
+// EXAMPLE :
+let j = 0;
+do {
+    console.log("Iteration:", j);
+    j++;
+} while (j < 3);
