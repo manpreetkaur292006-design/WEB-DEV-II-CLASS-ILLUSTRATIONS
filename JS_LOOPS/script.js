@@ -2,4 +2,10 @@
 
 // IN JS LOOPS ARE OF TWO TYPES :
 // 1. FOR LOOP
+//    A. FOR LOOP
+//    B. FOR IN LOOP
+//    C. FOR EACH LOOP
+
 // 2. WHILE LOOP
+
+// 3. DO WHILE LOOP
