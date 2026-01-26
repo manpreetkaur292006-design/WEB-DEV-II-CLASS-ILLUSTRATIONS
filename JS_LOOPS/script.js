@@ -29,7 +29,16 @@ for (let key in person) {
 
 //    C. FOR EACH LOOP :
 
+// SYNTAX :
+//   array.forEach(function(element, index, array) {
+//     // code to execute
+//   });
 
+// EXAMPLE :
+const numbers = [10, 20, 30];
+numbers.forEach(function(num) {
+  console.log(num);
+});
 
 // 2. WHILE LOOP
 
