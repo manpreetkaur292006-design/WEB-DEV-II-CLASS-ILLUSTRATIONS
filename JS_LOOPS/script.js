@@ -1,6 +1,7 @@
 // LOOPS IN JS
 
 // IN JS LOOPS ARE OF TWO TYPES :
+
 // 1. FOR LOOP : The for loop repeats a block of code a specific number of times. It contains
 //  initialization, condition, and increment/decrement in one line.
 
@@ -40,6 +41,18 @@ numbers.forEach(function(num) {
   console.log(num);
 });
 
-// 2. WHILE LOOP
+// 2. WHILE LOOP : The while loop executes as long as the condition is true. It can be thought of as a repeating if statement. 
+
+// SYNTAX : 
+//   while (condition) {
+//       // Code to execute
+//   }
+
+// EXAMPLE :
+let i = 0;
+while (i < 3) {
+    console.log("Number:", i);
+    i++;
+}
 
 // 3. DO WHILE LOOP
