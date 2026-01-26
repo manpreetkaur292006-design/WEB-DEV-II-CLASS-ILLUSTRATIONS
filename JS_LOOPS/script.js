@@ -14,8 +14,22 @@ for (let i = 1; i <= 3; i++) {
     console.log("Count:", i);
 }
 
-//    B. FOR IN LOOP
-//    C. FOR EACH LOOP
+//    B. FOR IN LOOP :
+
+// SYNTAX :-
+//   for (let key in object) {
+//       // code to be executed
+//   }
+
+// EXAMPLE :
+const person = { name: "Alice", age: 22, city: "Delhi" };
+for (let key in person) {
+  console.log(key, ":", person[key]);
+}
+
+//    C. FOR EACH LOOP :
+
+
 
 // 2. WHILE LOOP
 
