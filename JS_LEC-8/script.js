@@ -11,10 +11,11 @@
 //   2. execution phase - this is for code execution
 
 // REALTED CODE TO UNDERSTAND THE FLOW OF THE JS CODE :
-var a=10;  
-console.log(a);
+var a=10;              // 1
+console.log(a);        // 2
 function demo(){
-    let b=20;
-    console.log(b);
-}
-demo()
+    let b=20;          // 4
+    console.log(b);    // 5
+}                      // 6
+demo()                 // 3
+                      //  ^ order of the flow of the above code
