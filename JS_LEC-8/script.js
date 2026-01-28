@@ -19,3 +19,8 @@ function demo(){
 }                      // 6
 demo()                 // 3
                       //  ^ order of the flow of the above code
+
+
+// CALLSTACK :- it is a stack i.e. LIFO structure (last in first out) , part of the js engine
+//              It keeps the track of every process which is run in the environment
+//              It stores the Global execution context and the Functional execution context.
