@@ -46,4 +46,12 @@ let person = {
 console.log(person.name);       
 console.log(person.greet()); 
 
-// -------------
+// --------------
+
+// OBJECT ITERATION
+
+// we can use for loop to iterate over the objects as shown below
+
+for (let key in student){
+    console.log(key,student[key])
+}
