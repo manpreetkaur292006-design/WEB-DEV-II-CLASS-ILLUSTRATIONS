@@ -26,7 +26,24 @@ console.log(student.Sname)  // displaying the changes entity
 
 console.log(student)   // displaying the object again
 
+
 // here while creating the object i have used the "const" but still we are able
 // to modify the inner entity as we are not modifying the whole object but only one or
 // more inner entities not the whole object
 
+// --------------
+
+// we can also define functions in the the objects as shown below
+
+let person = {
+    name: "John",
+    age: 30,
+    greet: function() {
+        return `Hello, my name is ${this.name}.`;
+    },
+};
+
+console.log(person.name);       
+console.log(person.greet()); 
+
+// -------------
