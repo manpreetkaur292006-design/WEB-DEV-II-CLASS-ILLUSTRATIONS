@@ -3,13 +3,18 @@
 
 
 // 1. DISPLAY THE ARRAY ELEMENTS
-arr1=[1,2,3,4,5,6]
+let arr1=[1,2,3,4,5,6]
 for (let i=0; i<arr1.length ;i++){
     console.log(arr1[i])
 }
 
 
 // 2. FIND OUT ALL THE EVEN NUMBERS FROM AN ARRAY
+for (let j=0; j<arr1.length; j++){
+    if (arr1[j]%2==0){
+        console.log(arr1[j])
+    }
+}
 
 // 3. ADD 3 TO EACH ELEMENT IN AN ARRAY
 
