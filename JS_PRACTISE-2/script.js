@@ -15,5 +15,5 @@ for (let j=s2.length-1; j>=0; j--){
 }
 console.log(rev)
 
-// 3. RETRIVE A STRING FROM A GIVEN STRING
+
 
