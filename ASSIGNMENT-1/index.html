@@ -4,9 +4,51 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>9-FEB-2026</title>
-    <style></style>
+    <link rel="stylesheet" href="./style.css">
 </head>
 <body>
+    <div id="wrapper">
+
+        <h1>🎯 Smart Event Dashboard</h1>
+
+        <div id="new-event">
+
+            <h2>Add New Event</h2>
+            <button id="b1" class="btn">Add Event</button>
+            <form>
+                <label for="Event-Title">Event Title</label>
+                <input type="text" id="Event-Title">
+
+                <label for="Event-Date">Event Date</label>
+                <input type="date" id="Event-Date">
+
+                <label for="Category">Category</label>
+                <input type="text" placeholder="Conference" id="Category">
+
+                <label for="Description">Description</label>
+                <textarea id="Description"></textarea>
+
+            </form>
+
+        </div>
+
+        <div id="events">
+
+            <h2>My Events</h2>
+            <button id="b2" class="btn">Clear All Events</button>
+            <button id="b3" class="btn">Add Sample Events</button>
+            <p>No events yet. Add your first event!</p>
+
+        </div>
+
+        <div id="dom-demo">
+
+            <h2>DOM Manipulation Demo</h2>
+            <input type="text" placeholder="You Pressed">
+
+        </div>
+    </div>
+
     <script src="./script.js"></script>
 </body>
 </html>
