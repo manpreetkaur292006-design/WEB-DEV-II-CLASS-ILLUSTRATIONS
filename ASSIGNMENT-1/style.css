@@ -100,7 +100,7 @@ h2{
     font-size: x-large;
 }
 
-input{
+input,select{
     height: 28px;
     width: 240px;
     border-radius: 5px;
@@ -115,4 +115,5 @@ textarea{
     border-radius: 5px;
     border-color: rgb(180, 169, 169);
     border-width: 1.5px;
+    padding: 5px;
 }

@@ -13,39 +13,57 @@
         <div id="new-event">
           <h2>Add New Event</h2>
           <form>
-            <label for="Event-Title">Event Title</label>
-            <br />
-            <input type="text" id="Event-Title" />
-            <br />
-
-            <label for="Event-Date">Event Date</label>
-            <br />
-            <input type="date" id="Event-Date" />
-            <br />
-
-            <label for="Category">Category</label>
-            <br />
-            <input type="text" placeholder="Conference" id="Category" />
-            <br />
-
-            <label for="Description">Description</label>
-            <br />
-            <textarea id="Description"></textarea>
+            <div class="form-group">
+              <label for="Event-Title">Event Title</label>
+              <br />
+              <input type="text" id="Event-Title" placeholder="Event Title" name="Event-title" />
+              <br />
+            </div>
+            <div class="form-group">
+              <label for="Event-Date">Event Date</label>
+              <br />
+              <input type="date" id="Event-Date" name="Event-Date" />
+              <br />
+            </div>
+            <div class="form-group">
+              <label for="Category">Category</label>
+              <br />
+              <select id="Category">
+                <option value="Conference">Conference</option>
+                <option value="Workshop">Workshop</option>
+                <option value="Social">Social</option>
+                <option value="Webinar">Webinar</option>
+                <option value="Meetup">Meetup</option>
+              </select>
+              <br />
+            </div>
+            <div class="form-group">
+              <label for="Description">Description</label>
+              <br />
+              <textarea
+                id="Description"
+                placeholder="Type Description"
+              ></textarea>
+            </div>
           </form>
           <button id="b1" class="btn">Add Event</button>
         </div>
 
         <div id="events">
           <h2>My Events</h2>
-          <button id="b2" class="btn">Clear All Events</button>
-          <button id="b3" class="btn">Add Sample Events</button>
-          <p>No events yet. Add your first event!</p>
+          <div class="controls">
+            <button id="b2" class="btn">Clear All Events</button>
+            <button id="b3" class="btn">Add Sample Events</button>
+          </div>
+          <div id="Event-container">
+            <div class="empty-state">No events yet. Add your first event!</div>
+          </div>
         </div>
       </div>
       <div id="main-dom-demo">
         <div id="dom-demo">
           <h2>DOM Manipulation Demo</h2>
-          <input type="text" placeholder="You Pressed" />
+          <input type="text" placeholder="You Pressed :" />
         </div>
       </div>
     </div>
