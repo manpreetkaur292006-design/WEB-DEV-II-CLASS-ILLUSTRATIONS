@@ -53,16 +53,18 @@ body {
   width: 700px;
   border-radius: 15px;
   margin: 10px;
-  margin-bottom: 53px;
+  margin-bottom: 45px;
   padding-bottom: 30px;
   padding: 15px;
   box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
   line-height: 40px
 }
 
-#dom-demo input{
+#demoContent{
     width: 670px;
-    padding: 5px;
+    height: 32px;
+    border-radius: 10px;
+    border: 2px solid grey;
 }
 
 #event-main-div {
@@ -80,6 +82,11 @@ body {
   border-radius: 5px;
 }
 
+.btn:hover{
+  background-image: linear-gradient(to right, rgb(255, 146, 237) 0%, rgb(117, 105, 255) 100%);
+  border: none;
+}
+
 #b1{
     width: 240px;
     height: 30px;   
@@ -90,7 +97,7 @@ body {
     width: 175px;
 }
 
-#events p{
+.empty-state{
     color: rgb(91, 91, 91);
     text-align: center;
 }

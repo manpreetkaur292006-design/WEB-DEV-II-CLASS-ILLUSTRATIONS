@@ -12,11 +12,16 @@
       <div id="event-main-div">
         <div id="new-event">
           <h2>Add New Event</h2>
-          <form>
+          <form id="Event-form">
             <div class="form-group">
               <label for="Event-Title">Event Title</label>
               <br />
-              <input type="text" id="Event-Title" placeholder="Event Title" name="Event-title" />
+              <input
+                type="text"
+                id="Event-Title"
+                placeholder="Event Title"
+                name="Event-title"
+              />
               <br />
             </div>
             <div class="form-group">
@@ -63,7 +68,9 @@
       <div id="main-dom-demo">
         <div id="dom-demo">
           <h2>DOM Manipulation Demo</h2>
-          <input type="text" placeholder="You Pressed :" />
+          <div id="demoContent" class="demo-content">
+            Press any key to see the difference!
+          </div>
         </div>
       </div>
     </div>

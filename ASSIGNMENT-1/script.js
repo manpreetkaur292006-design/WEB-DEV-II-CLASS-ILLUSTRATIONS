@@ -1,25 +1,50 @@
 
 // TARGET THE FORM AND BUTTONS
 
+const eventForm=document.getElementById("Event-form")
 const eventTitle=document.getElementById("Event-Title")
-const eveDate=document.getElementById("Event-Date")
-const cat=document.getElementById("Category")
-const desc=document.getElementById("Description")
-const b1=document.getElementById("b1")
+const eventDate=document.getElementById("Event-Date")
+const category=document.getElementById("Category")
+const description=document.getElementById("Description")
 const b2=document.getElementById("b2")
 const b3=document.getElementById("b3")
 
-const events=[
+const SampleEvents=[
     {
-        title:"x",
-        date:29-jan-2026,
-        category:"Social",
-        description:"hui"
+        title:"Web-Development",
+        date:"2026-02-10",
+        category:"Webinar",
+        description:"A Webinar on Web Development."
     },
     {
-        title:"x",
-        date:29-jan-2026,
+        title:"Debuggers Coffee Cup",
+        date:"2026-02-12",
         category:"Social",
-        description:"hui"
+        description:"Code Debugging Competion."
     }
 ]
+
+let EventData={
+    title: eventTitle.value,
+    date: eventDate.value,
+    category: category.value,
+    description: description.value
+}
+
+function createEventCard(){
+    const card=document.createElement("div");
+    card.className="Event-Card";
+    card.innerHTML=`
+    <button class="Delete-btn">X</button>
+    <h2 id="evetitle">${eventTitle}</h2>
+    <h3 id="evedat">📅 ${eventDate}</h3>
+    <div id="cat">${category}</div>
+    <p id="desc">${description}</p>
+    `
+}
+
+function addEvent(){
+    const emptyState=document.getElementById("empty-state")
+    Event-CSSContainerRule.appendChild(createEventCard())
+}
+
