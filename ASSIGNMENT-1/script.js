@@ -10,6 +10,7 @@ const description = document.getElementById("Description");
 const addEventBtn = document.getElementById("b1");
 const clearAllBtn = document.getElementById("b2");
 const addSampleBtn = document.getElementById("b3");
+const democontent=document.getElementById("demoContent")
 
 const eventContainer = document.getElementById("Event-container");
 
@@ -43,7 +44,7 @@ function createEventCard(eventData) {
   return card;
 }
 
-// Show empty-state if no events
+// Showing the empty-state if no events
 function showEmptyState() {
   if (!eventContainer.querySelector(".empty-state")) {
     const div = document.createElement("div");
@@ -53,7 +54,7 @@ function showEmptyState() {
   }
 }
 
-// Remove empty-state if present
+// Removing the empty-state if present
 function removeEmptyState() {
   const emptyState = eventContainer.querySelector(".empty-state");
   if (emptyState) {
@@ -61,14 +62,14 @@ function removeEmptyState() {
   }
 }
 
-// Add one event to My Events
+// Adding one event to My Events
 function addEvent(eventData) {
   removeEmptyState();
   const card = createEventCard(eventData);
   eventContainer.appendChild(card);
 }
 
-// FORM SUBMIT (press Enter inside form)
+// FORM SUBMIT 
 eventForm.addEventListener("submit", (e) => {
   e.preventDefault();
   const eventData = {
@@ -81,7 +82,7 @@ eventForm.addEventListener("submit", (e) => {
   eventForm.reset();
 });
 
-// "Add Event" BUTTON (b1)
+// "Add Event" 
 addEventBtn.addEventListener("click", () => {
   const eventData = {
     title: eventTitle.value,
@@ -94,18 +95,18 @@ addEventBtn.addEventListener("click", () => {
   eventForm.reset();
 });
 
-// "Clear All Events" (b2)
+// "Clear All Events"
 clearAllBtn.addEventListener("click", () => {
   eventContainer.innerHTML = "";
   showEmptyState();
 });
 
-// "Add Sample Events" (b3)
+// "Add Sample Events" 
 addSampleBtn.addEventListener("click", () => {
   SampleEvents.forEach((ev) => addEvent(ev));
 });
 
-// EVENT DELEGATION: delete button on cards
+// delete button on cards
 eventContainer.addEventListener("click", (e) => {
   if (e.target.classList.contains("delete-btn")) {
     const card = e.target.closest(".Event-Card");
@@ -115,6 +116,11 @@ eventContainer.addEventListener("click", (e) => {
     }
   }
 });
+
+// dom manipulation demo
+document.addEventListener("keydown",function(e){
+  democontent.textContent="You Pressed :" + e.key;
+})
 
 
 
