@@ -61,3 +61,47 @@ Promi.then((data)=>{
 // all these points are important for interviews
 
 
+// we use fetch function to get the api from any external source 
+// fetch function is a library function that returns promises this is calledd fetch API
+// jsonplacholder.typecode website for fetch 
+
+// we can use any backend service using fetch pehle xho use hota for same work
+
+let resp=fetch("https://jsonplaceholder.typicode.com/todos/1");
+ // fetch jo first time return karega vo response object in the form of promise
+resp.then((robj)=>{
+    console.log(robj);  // hame ek object milega jisko hum reponse object bolte hai
+    // console.log(robj.json()); // bina .then ke execute karne per ek aur promise aa jayega jise hum then se handle karnege
+    robj.json().then((data)=>{
+        console.log(data); // yeh bhi nested hai - callback hell wali situation la raha hai
+    });
+});  // robj=response object
+console.log(resp);
+
+// shorthand me we will write the code a follows
+fetch("https://jsonplaceholder.typicode.com/todos/1")
+.then((robje)=>{
+    robje.json().then((data)=>{
+        console.log(data);   // this is also like callback hell called promises hell - 
+        // we will tackle with this to get rid of this problem
+    });
+})
+
+// we will do parallel coding to tackle this problem see website for the code
+// if we are dropping the {} then we can also drop the return keyword
+
+
+fetch("https://jsonplaceholder.typicode.com/todos/1")
+.then(robje=>{
+    return robje.json();
+}).then(data=>{
+    console.log(data);
+}).catch(err=>{ // single parameter ke case me paranthesis hata sakte hai per no parameter aur more than two parameter me lagana hoga
+    // similarly we can remove {} and return keyword
+    console.log(err);
+})  // promise chaining is the solution of callbackhell that we will do here
+
+
+// home work do netflix simulation in the form of promises using promise chaining
+
+// see code from the website
