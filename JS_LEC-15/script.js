@@ -39,3 +39,6 @@ getData1("https://jsonplaceholder.typicode.com/todos/5").then(data=>console.log(
 // whenever you call async function what ever you will get in return ?
 // we will get promises (data in the form of promises)
 
+// open weather data aur accu weather gives data in the form of API
+// next we have to make the weather forcast API
+
