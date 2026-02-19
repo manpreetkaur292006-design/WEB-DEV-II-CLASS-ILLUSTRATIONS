@@ -14,12 +14,13 @@ getData("https://jsonplaceholder.typicode.com/todos/5")
 // in this way hame baar baar function ke andar wale statements nahi likhne padegi
 // function baar baar call karke url pass karke ho jayega
 
-// yahan per concept ata hai async and await
+// yahan per concept ata hai async and await ka
 
 // async- we use to make a function async
 // await- async ke andar agar promise ko handle karna hai toh we use await
 
-// you can use await only inside the async function to always handle the promise -.then bhi chalega but better is await
+// you can use await only inside the async function to always handle the promise
+//  - yahan .then bhi chalega but better is await
 // jahan per async nahi hai toh .then se we will handle the promise
 
 // now we will make the above code async
@@ -34,11 +35,11 @@ async function getData1(url){
 }
 getData1("https://jsonplaceholder.typicode.com/todos/5").then(data=>console.log(data));
 // function ke andar ka saara code sync me chalega ise liye hamne async keyword lagaya hai
-// aur thread block nahi hoga
+// aur thread (line) block nahi hoga
 
 // whenever you call async function what ever you will get in return ?
 // we will get promises (data in the form of promises)
 
 // open weather data aur accu weather gives data in the form of API
-// next we have to make the weather forcast API
+// next we have to make the weather forcast API in assignment
 
