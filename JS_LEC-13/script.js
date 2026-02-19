@@ -1,8 +1,8 @@
-// ab tak hamne syncronour js me coding kari hai
+// ab tak hamne syncronous js me coding kari hai
 // now we will do asyncronous coding 
-// js behaviour is single threaded means ek he process chal sakta hai ek time per - means ek counter hai 
+// js behaviour is single threaded means ek he process chal sakta hai ek time per - means ek tiket counter jaisa hai 
 
-// problems of single threaded :(could be blocking)
+// problems of single threaded : (could be blocking)
 // time consuming - if some process is taking longer than usual than you have to wait
 // aise type of code ko blocking nature of code bolte hai because of its single threaded nature
 
@@ -39,7 +39,7 @@ console.log("End .....")
 
 // js me mostly we will write the non - blocking code 99 %
 
-// iske saath bhi problem hai(set time out)
+// iske saath bhi problem hai (set time out)
 
 // most of the function return a value and here we a consoling the value
 console.log("Start .....")
@@ -48,7 +48,7 @@ function myfunction(){
     return ("Hello,world !")
     },5000);
 }
-console.log(myfunction())  // iska undefined aa jayega output keyuunki yeh line 5 sec se pehle execute ho rahi hai 
+console.log(myfunction())  // iska output undefined aayega because yeh line 5 sec se pehle execute ho rahi hai 
 // iska solution hai callback function
 // async coding me isleye return statement work nahi karta hai
 console.log("End .....")
