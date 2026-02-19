@@ -32,7 +32,7 @@ console.log(Prom) // we will get the data in the form of promise object form - i
 
 // promise handling
 
-// if promise get resolved than what you will do - we use then keyword
+// if promise get resolved than what you will do - we use .then keyword
 
 let Promi=new Promise((res,rej)=>{  
     let data="this is data";
@@ -48,7 +48,7 @@ Promi.then((data)=>{
 },(error)=>{
     console.log(error)  // is part ke liye hum catch keyword use karte hai industry me aise use nahi karte 
     // (multiple then ke liye single catch is sufficeient)
-}) // handling the promise using them and isme 2 callback functions add kar sakte hai
+}) // handling the promise using .then and isme 2 callback functions add kar sakte hai
 // one for resolve and other for reject (we can interchange it but mostly good understanding ke liye we use this way)
 
 // data milne ka matlab hota hai resolved
@@ -65,13 +65,13 @@ Promi.then((data)=>{
 // fetch function is a library function that returns promises this is calledd fetch API
 // jsonplacholder.typecode website for fetch 
 
-// we can use any backend service using fetch pehle xho use hota for same work
+// we can use any backend service using fetch pehle xho use hota tha for same work
 
 let resp=fetch("https://jsonplaceholder.typicode.com/todos/1");
  // fetch jo first time return karega vo response object in the form of promise
 resp.then((robj)=>{
     console.log(robj);  // hame ek object milega jisko hum reponse object bolte hai
-    // console.log(robj.json()); // bina .then ke execute karne per ek aur promise aa jayega jise hum then se handle karnege
+    // console.log(robj.json()); // bina .then ke execute karne per ek aur promise aa jayega jise hum .then se handle karnege
     robj.json().then((data)=>{
         console.log(data); // yeh bhi nested hai - callback hell wali situation la raha hai
     });
