@@ -17,5 +17,5 @@ fetch('https://dataservice.accuweather.com/currentconditions/v1/%city', options)
 
 
 
-  // wrap bot the things in the functions and we can call them accordingly
+  // wrap botH the things in the functions and we can call them accordingly
   
