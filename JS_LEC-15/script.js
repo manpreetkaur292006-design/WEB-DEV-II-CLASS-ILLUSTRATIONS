@@ -10,6 +10,7 @@ function getData(url){
 }
 
 getData("https://jsonplaceholder.typicode.com/todos/5")
+
 // we made a function of fetch so we can use this same function different urls 
 // in this way hame baar baar function ke andar wale statements nahi likhne padegi
 // function baar baar call karke url pass karke ho jayega
@@ -24,6 +25,7 @@ getData("https://jsonplaceholder.typicode.com/todos/5")
 // jahan per async nahi hai toh .then se we will handle the promise
 
 // now we will make the above code async
+
 async function getData1(url){
     // fetch(url)
     // .then(resp=>resp.json())
@@ -34,6 +36,7 @@ async function getData1(url){
     return data;
 }
 getData1("https://jsonplaceholder.typicode.com/todos/5").then(data=>console.log(data));
+
 // function ke andar ka saara code sync me chalega ise liye hamne async keyword lagaya hai
 // aur thread (line) block nahi hoga
 
