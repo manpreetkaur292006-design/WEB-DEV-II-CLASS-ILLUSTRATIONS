@@ -57,6 +57,20 @@ pro2(1).then(()=>pro2(2))
 .catch(()=>console.log("error"))
 
 // this will print the numbers with the interval of one second
+// this is an example of promise chaining.
+
+// Promise chaining: when we uaw multiple .then methods to achieve
+// the task or result.
+
+// In callback hell we did the same task but the code is hard to debug 
+// and structure is not good.
+
+// Disadvantages : to perform certain task we need to call a callback function 
+// multiple times. more functions for smaller task means more complexity and time for 
+// execution and function call will be more.
+
+// function means to perform a certain part to run particular blocks
+
 
 
 
