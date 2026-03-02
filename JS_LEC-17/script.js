@@ -24,3 +24,39 @@ pro
 .catch((err)=>console.error(err, "promise rejected")) // error handling
 
 
+// function implementation
+function pro1(){
+    return new Promise((res,rej)=>{
+        setTimeout(() => {
+            res()
+        },1000);
+    })
+}
+pro1()  // if we console this then we will get promise{'pending'} that is inside it
+.then(()=>console.log("resolved"))
+
+// .then(()=>console.log("1"))
+// .then(()=>console.log("2"))
+// .then(()=>console.log("3"))
+// .then(()=>console.log("4"))
+
+// ALL THESE WILL GET PRINTED HERE if we do like this
+// after one second at one go
+
+function pro2(num){
+    return new Promise((res,rej)=>{
+        setTimeout(() => {
+            console.log(num)
+            res()
+        },1000);
+    })
+}
+pro2(1).then(()=>pro2(2))
+.then(()=>pro2(3))
+.then(()=>pro2(4))
+.catch(()=>console.log("error"))
+
+// this will print the numbers with the interval of one second
+
+
+
