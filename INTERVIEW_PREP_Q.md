@@ -45,3 +45,7 @@
  11. what is DOM
  
  12. diff between getelementbyid and getelementbyclassname
+
+ 13. Callback,promise,callback hell, promises hell, promises chaining, asyn and await
+
+ 
