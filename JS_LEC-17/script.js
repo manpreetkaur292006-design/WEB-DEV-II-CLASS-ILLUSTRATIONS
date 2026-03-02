@@ -67,10 +67,16 @@ pro2(1).then(()=>pro2(2))
 
 // Disadvantages : to perform certain task we need to call a callback function 
 // multiple times. more functions for smaller task means more complexity and time for 
-// execution and function call will be more.
+// execution and function call will be more.  that is why async aur await aya.
 
 // function means to perform a certain part to run particular blocks
 
+// using for loop for this
 
+let prores=Promise.resolve();
+for (let i=1; i<=5; i++){
+    prores=prores.then(()=>pro2(i))
+}
+// go to inspect and sources and script to check the flow of all these codes
 
 
