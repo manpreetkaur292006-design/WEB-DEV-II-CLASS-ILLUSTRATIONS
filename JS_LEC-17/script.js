@@ -1,8 +1,10 @@
 
 // JS-LEC-17
 
+// JS REVISION LECTURE OF UNIT-2
+
 // callback function is async and multiple callbacks form callback hell
-// to tackle with that we use promises that will work as an consuctor
+// to tackle with that we use promises that will work as an constructor
 // deep knowledge of constructor in c++ and js
 // to initialize this we use new keyword - to initialize the object constructor
 
