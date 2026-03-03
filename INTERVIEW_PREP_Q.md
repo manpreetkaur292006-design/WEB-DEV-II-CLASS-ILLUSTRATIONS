@@ -1,6 +1,6 @@
 ## interview prep questions 
 
-# practise code and explanation both
+# practice code and explanation both
 
  1.difference btw var,let, and const
 
@@ -46,7 +46,7 @@
 
  11. what is DOM ?
  
- 12. diff between getelementbyid and getelementbyclassname
+ 12. diff between getElementById and getElementByClassname
 
  13. Explain :
 
@@ -64,9 +64,9 @@
 
  16. add event listener
 
- 17. what is executional context and callstack ? (these are for syncronous running of code)
+ 17. what is executional context and callstack ? (these are for Syncronous running of code)
 
- 18. what is event loop and how it executes asyn codes ?
+ 18. what is event loop and how it executes async codes ?
 
  19. what is callback hell ? disadvantages of callback hell 
 
