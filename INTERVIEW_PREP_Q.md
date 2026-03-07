@@ -2,9 +2,17 @@
 
 # practice code and explanation both
 
- 1.difference btw var,let, and const
+ 1. what is the difference between var,let and const ?
 
- 2.explain different types of js operators
+ 2. Explain the different types of operators in JavaScript.
+Examples:
+* Arithmetic Operators
+* Assignment Operators
+* Comparison Operators
+* Logical Operators
+* Bitwise Operators
+* Ternary Operator
+* Type Operators
 
  3.difference btw == and ===
 
@@ -74,6 +82,6 @@
 
  21. what is promise chaining and disadvantages of promise chaining ?
 
- 22. 
+ 22.  
  
   
