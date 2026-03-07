@@ -14,10 +14,10 @@ Examples:
 * Ternary Operator
 * Type Operators
 
- 3.difference btw == and ===
+ 3. What is the difference between == and ===?
 
- 4.what is hoisting and TDZ.
-
+ 4. What is Hoisting and TDZ (Temporal Dead Zone)?
+ 
  5.explain different array methods in Js
 
     -map vs filter vs reduce
