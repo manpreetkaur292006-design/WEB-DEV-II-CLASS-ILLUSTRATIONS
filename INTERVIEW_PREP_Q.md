@@ -27,21 +27,16 @@ Examples:
 
  6. Explain String methods and Object methods in JavaScript.
 
- 7.types of function
+ 7. Types of Functions in JavaScript
+* Regular Function
+* Arrow Function
+* First-Class Function
+* Higher-Order Function
+* Callback Function
+* Self-Invoking Function (IIFE – Immediately Invoked Function Expression)
+* Anonymous Function
 
-     -regular function
-
-     -arrow function
-
-     -fast class function
-
-     -higher order function
-
-     -callback function
-
-     -anonymous function
-
-     -self invoking function (IIFE)
+**2nd Sem Onwards:**
 
  8. difference between spread operator and rest parameter    
 
