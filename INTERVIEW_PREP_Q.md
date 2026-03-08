@@ -18,17 +18,14 @@ Examples:
 
  4. What is Hoisting and TDZ (Temporal Dead Zone)?
  
- 5.explain different array methods in Js
+ 5. Explain different Array methods in JavaScript.
+**Important comparisons:**
+* map() vs filter() vs reduce()
+* map() vs forEach()
+* find() vs filter()
+* some() vs every()
 
-    -map vs filter vs reduce
-
-    -find and filter
-
-    -map and foreach
-
-    -some and every
-
- 6.string, object methods.
+ 6. Explain String methods and Object methods in JavaScript.
 
  7.types of function
 
