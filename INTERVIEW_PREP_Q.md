@@ -38,9 +38,9 @@ Examples:
 
 **2nd Sem Onwards:**
 
- 8. difference between spread operator and rest parameter    
+ 8. What is the difference between setTimeout() and setInterval()?    
 
- 9. what is nullish coalescing operator
+ 9. What is the difference between DOM and HTML?What are the uses of the DOM?
 
  10. difference between setInterval and setTimeout.
 
@@ -74,6 +74,6 @@ Examples:
 
  21. what is promise chaining and disadvantages of promise chaining ?
 
- 22.  
+ 22. what is nullish coalescing operator ?
  
   
