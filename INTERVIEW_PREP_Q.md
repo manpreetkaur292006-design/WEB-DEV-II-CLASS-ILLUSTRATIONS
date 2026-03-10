@@ -42,11 +42,17 @@ Examples:
 
  9. What is the difference between DOM and HTML?What are the uses of the DOM?
 
- 10. difference between setInterval and setTimeout.
+ 10. What is the difference between:
+* textContent
+* innerHTML
+* innerText
 
  11. what is DOM ?
  
- 12. diff between getElementById and getElementByClassname
+ 12. What is the difference between:
+* getElementById()
+* getElementsByClassName()
+* query selector and querySelectorAll
 
  13. Explain :
 
