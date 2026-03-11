@@ -55,8 +55,7 @@ Examples:
 * query selector and querySelectorAll
 
  13. Explain :
-
-     -Callback
+      -Callback
      -promise
      -callback hell
      -promises hell
@@ -68,9 +67,10 @@ Examples:
 
  15. DOM traversal methods 
 
- 16. add event listener
+ 16. Explain Event Handling in JavaScript
+* addEventListener() with implementation
 
- 17. what is executional context and callstack ? (these are for Syncronous running of code)
+ 17. what is executional context and callstack ? (these are for sync running of code)
 
  18. what is event loop and how it executes async codes ?
 
@@ -81,5 +81,7 @@ Examples:
  21. what is promise chaining and disadvantages of promise chaining ?
 
  22. what is nullish coalescing operator ?
+
+ 23. Create element, append element, remove element using DOM.
  
   
