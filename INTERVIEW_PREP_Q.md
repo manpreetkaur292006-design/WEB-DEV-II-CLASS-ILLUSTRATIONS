@@ -55,7 +55,7 @@ Examples:
 * query selector and querySelectorAll
 
  13. Explain :
-      -Callback
+     -Callback
      -promise
      -callback hell
      -promises hell
@@ -63,14 +63,17 @@ Examples:
      -async and await
      -event loop
 
- 14. difference between text content, inner html and inner text.  
+ 14. Form Validation using Dom:
+    * onclick
+    * onchange
+    * onsubmit  
 
  15. DOM traversal methods 
 
  16. Explain Event Handling in JavaScript
 * addEventListener() with implementation
 
- 17. what is executional context and callstack ? (these are for sync running of code)
+ 17. Explain Execution Context and Call Stack.How does JavaScript code execute?(these are for sync running of code)
 
  18. what is event loop and how it executes async codes ?
 
