@@ -1,6 +1,6 @@
-## interview prep questions 
+# INTERVIEW PREPARATION QUESTIONS
 
-# practice code and explanation both
+## PRACTICE CODE AND EXPLANATION BOTH
 
  1. what is the difference between var,let and const ?
 
@@ -36,7 +36,9 @@ Examples:
 * Self-Invoking Function (IIFE – Immediately Invoked Function Expression)
 * Anonymous Function
 
+
 **2nd Sem Onwards:**
+
 
  8. What is the difference between setTimeout() and setInterval()?    
 
