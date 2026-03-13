@@ -73,13 +73,28 @@ Examples:
  16. Explain Event Handling in JavaScript
 * addEventListener() with implementation
 
- 17. Explain Execution Context and Call Stack.How does JavaScript code execute?(these are for sync running of code)
+ 17. Explain Execution Context and Call Stack.How does JavaScript code execute? (these are for sync running of code)
 
- 18. what is event loop and how it executes async codes ?
+ 18. Explain the Event Loop and how asynchronous code executes in the execution context.
 
- 19. what is callback hell ? disadvantages of callback hell 
+ 19. What is Callback Hell? Explain its disadvantages.
 
- 20. explain the life-cycle of promise and how it manages async functions better than callback hell ?
+
+ 20.  Explain the Lifecycle of a Promise.
+
+    Answer flow:
+    1. Start with Callback Hell problem
+    2. Define Promise
+    3. Explain Promise states
+        * Pending
+        * Fulfilled
+        * Rejected
+    4. Promise consumers:
+        * .then()
+        * .catch()
+        * .finally()
+    5. Implementation example 
+    ( + how it manages async functions better than callback hell ? )
 
  21. what is promise chaining and disadvantages of promise chaining ?
 
