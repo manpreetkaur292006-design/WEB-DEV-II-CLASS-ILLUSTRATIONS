@@ -96,10 +96,13 @@ Examples:
     5. Implementation example 
     ( + how it manages async functions better than callback hell ? )
 
- 21. what is promise chaining and disadvantages of promise chaining ?
+ 21. What is Promise Chaining and its disadvantages?
 
  22. what is nullish coalescing operator ?
 
  23. Create element, append element, remove element using DOM.
  
+ 24. Explain Async and Await.Why is it more efficient and readable than Promise chaining?
+
+
   
