@@ -104,5 +104,75 @@ Examples:
  
  24. Explain Async and Await.Why is it more efficient and readable than Promise chaining?
 
-
+**Guess the Output and Explain the Reason in Details (Concepts to cover:callstack, event loop, micro task and macro task queue)**
   
+
+25. console.log("A");
+
+setTimeout(() => {
+  console.log("B");
+}, 1000);
+
+Promise.resolve().then(() => {
+  console.log("C");
+});
+
+console.log("D");
+
+
+
+22. console.log("1");
+
+Promise.resolve().then(() => {
+  console.log("2");
+});
+
+Promise.resolve().then(() => {
+  console.log("3");
+});
+
+console.log("4");
+
+
+
+23. setTimeout(() => {
+  console.log("Timeout 1");
+
+  Promise.resolve().then(() => {
+    console.log("Promise inside Timeout");
+  });
+
+}, 0);
+
+Promise.resolve().then(() => {
+  console.log("Promise 1");
+});
+
+
+
+24. console.log("1");
+
+setTimeout(() => console.log("2"), 0);
+
+Promise.resolve().then(() => {
+  console.log("3");
+  Promise.resolve().then(() => {
+    console.log("4");
+  });
+});
+
+console.log("5");
+
+
+
+25. console.log("A");
+
+new Promise((resolve) => {
+  console.log("B");
+  resolve();
+  console.log("C");
+}).then(() => {
+  console.log("D");
+});
+
+console.log("E");
