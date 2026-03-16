@@ -1,22 +1,8 @@
 
-// weather api
-// async wether tracker
+// ASYNC WEATHER TRACKER USING API
 
-function getlocation(city){
-const options = {method: 'GET', headers: {Authorization: 'Bearer zpka_208202a3448e45da80072ace8ef7d7d0_a3c48253'}};
+// WE CAN USE API FROM ANY OF THE SITE ACCUWEATHER AND OPEN WEATHER FOR THIS.
 
-fetch('https://dataservice.accuweather.com/locations/v1/cities/search?q=%3Cstring%3E', options)
-  .then(response => response.json())
-  .then(response => console.log(response))
-  .catch(err => console.error(err));
-
-fetch('https://dataservice.accuweather.com/currentconditions/v1/%city', options)
-  .then(response => response.json())
-  .then(response => console.log(response))
-  .catch(err => console.error(err));
-}
+// WE ARE HERE USING OPEN WEATHER API
 
 
-
-  // wrap both the things in the functions and we can call them accordingly
-  
