@@ -8,7 +8,8 @@
 // API key :- 2021306ceb8064a5730e274654b326c6
 
 // BUILD AN API REQUEST USING CITY NAME :
-// https://api.openweathermap.org/data/2.5/weather?q={city name}&appid={API key}
+// https://api.openweathermap.org/data/2.5/weather?q={city name}&appid={API key}&units=metric 
+// &units=metric  : to get temperature in degree celsius
 
 async function getData(city) {
   try{
