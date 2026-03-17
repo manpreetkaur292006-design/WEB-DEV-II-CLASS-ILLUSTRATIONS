@@ -1,34 +1,39 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-    <link rel="stylesheet" href="./style.css">
-</head>
-<body>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
     <div id="wrapper">
-    <h1 id="heading">⛅ Async Weather Tracker</h1>
+      <h1 id="heading">⛅ Async Weather Tracker</h1>
 
-    <div id="main-search-history">
+      <div id="main-search-history">
         <div id="search">
-            <label for="location">Search City</label>
-            <div id="search-div">
-            <input type="text" id="location" placeholder="Delhi, London">
+          <label for="location">Search City</label>
+          <div id="search-div">
+            <input type="text" id="location" placeholder="Delhi, London" />
             <button id="search-btn">Search</button>
-            </div>
-            <br>
-            <h2>Search History</h2>
+          </div>
+          <br />
+          <div id="s-history"></div>
         </div>
         <div id="weather-info">
-            <h2>Weather Info</h2>
+          <h2>Weather Info</h2>
         </div>
-    </div>
-    <div id="console">
+      </div>
+      <div id="console">
         <h2>Console-Event Loop</h2>
         <div id="event-loop"></div>
+      </div>
+      <div id="modes">
+        <button onclick="setTheme('light')" id="btn">Light</button>
+        <button onclick="setTheme('dark')" id="btn">Dark</button>
+      </div>
     </div>
-    </div>
+
     <script src="./script.js"></script>
-</body>
+  </body>
 </html>
