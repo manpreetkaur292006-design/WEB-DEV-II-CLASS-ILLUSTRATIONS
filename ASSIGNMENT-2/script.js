@@ -87,16 +87,10 @@ showHistory();
 const savedTheme = localStorage.getItem("x");
 if (savedTheme) {
     document.body.className = savedTheme;
-    // document.getElementById("event-loop") = savedTheme;
-    // document.getElementById("search-btn") = savedTheme;
-    // document.getElementById("btn") = savedTheme;
+  
 }
-
 // FUNCTION TO CHANGE THEME
 function setTheme(mode) {
     document.body.className = mode;
-    // document.getElementById("event-loop") = mode;
-    // document.getElementById("search-btn") = mode;
-    // document.getElementById("btn") = mode;
     localStorage.setItem("x", mode);
 }
