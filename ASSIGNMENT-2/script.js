@@ -105,48 +105,50 @@ for (let i = 0; i < searchHistory.length; i++) {
 
 
 // SEARCH BUTTON CLICK
-document.getElementById("search-btn").onclick = () => {
-  const city = cityInput.value.trim();
-  if (city) {
-    search(city);
+document.getElementById("search-btn").onclick = () => {  // targeting the search btn and adding the onclick functionality
+  const city = cityInput.value.trim(); // getting the city from the input box
+  if (city) { // checking that if the city is not empty
+    search(city);  // search for the city 
   }
 };
 
 // SEARCH FUNCTION
-async function search(city) {
-  weatherBox.innerHTML = '<p style="text-align:center">Loading...</p>';
-  try {
-    const data = await fetchData(city);
-    renderWeather(data);
-    saveHistory(city);
-    showHistory();
-    cityInput.value='';
-  } catch (error) {
+async function search(city) {  // defining an async function for the search functionality
+  weatherBox.innerHTML = '<p style="text-align:center">Loading...</p>';  // this will show loading on the screen when we are showing the data
+
+  // we are using try and except block for exception handling
+  try { 
+    const data = await fetchData(city); // fetching the data of weather from API
+    renderWeather(data);  // displaying the weather 
+    saveHistory(city);  // saving the search history to the history
+    showHistory();  // shows history buttons
+    cityInput.value='';  // clearing the input box
+  } catch (error) {  // error handling part
     weatherBox.innerHTML = `<p style="color:red">${error.message}</p>`;
   }
 }
 
-// ENTER KEY SEARCH
-cityInput.addEventListener("keydown", (e) => {
-  if (e.key === "Enter") {
-    const city = cityInput.value.trim();
-    if (city) {
-      search(city);
+// ENTER KEY SEARCH - when pressed enter shows the weather
+cityInput.addEventListener("keydown", (e) => {  // adding the keydown event listener when we press enter
+  if (e.key === "Enter") {  // checking that the enter is pressed or not
+    const city = cityInput.value.trim(); // getting the city from the input box
+    if (city) {  // checking that if the city is not empty
+      search(city);  // search for the city 
     }
   }
 });
 
-// INITIAL LOAD
-showHistory();
+// INITIAL LOAD - when the page will load it will immediately show the history buttons
+showHistory(); 
 
 
 // DARK AND LIGHT MODES - NEW ADDITIONAL FEATURE
-const savedTheme = localStorage.getItem("theme");
-if (savedTheme) {
-    document.body.className = savedTheme;
+const savedTheme = localStorage.getItem("theme");  // checking whether which theme is saved
+if (savedTheme) {  // if theme exists 
+    document.body.className = savedTheme;  // apply that theme
 }
 // FUNCTION TO CHANGE THEME
-function setTheme(mode) {
-    document.body.className = mode;
-    localStorage.setItem("theme", mode);
+function setTheme(mode) {  // checking when the the light/dark btn is clicked 
+    document.body.className = mode;  // it will change the webpage colors according to the users choice
+    localStorage.setItem("theme", mode);  // saving the choice in the local storage forever
 }
