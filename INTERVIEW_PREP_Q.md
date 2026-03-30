@@ -178,3 +178,10 @@ new Promise((resolve) => {
 });
 
 console.log("E");
+
+## React.js
+
+26. What is React ? Explain the features of React ?  (8 marks in exam)
+(min 6-7 features if questions come)
+
+27. What is virtual DOM ? 
