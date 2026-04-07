@@ -185,3 +185,18 @@ console.log("E");
 (min 6-7 features if questions come)
 
 27. What is virtual DOM ? 
+
+28. What is single page application ?
+
+29. The difference between single page application (SPA) and multi page application (MPA) ?
+
+30. Explain one way data binding in react ? **Important**
+
+31. How jsx works in react and what is babel ?
+
+32. Explain life-cycle methods and its disadvantages ? **For Foundational basis**
+
+33. How to tackle life cycle methods by using useEffect hook ?? **Important**
+
+34. 
+
