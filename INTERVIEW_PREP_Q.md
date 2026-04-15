@@ -198,5 +198,7 @@ console.log("E");
 
 33. How to tackle life cycle methods by using useEffect hook ?? **Important**
 
-34. 
+34. Explain controlled components and uncontrolled components ?
+
+35. 
 
