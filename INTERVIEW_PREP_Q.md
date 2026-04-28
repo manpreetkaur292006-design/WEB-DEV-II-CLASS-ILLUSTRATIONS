@@ -200,5 +200,30 @@ console.log("E");
 
 34. Explain controlled components and uncontrolled components ?
 
-35. 
+## **important** - practical , exam and interview
+
+35. How to manage State in react by using useState hook ?  (practise small codes like dark light theme can come in practical).
+
+36. Explain form handling in react ?
+  - Manage user input fields (synthatic event , prevent default etc)
+  - preventDefault()
+  - Submit the data
+
+37. How useEffect hook replace life cycle methods ?
+
+38. How to fetch API using useEffect ? ( dependancy array - keep in mind )
+  
+39. Create two counter button , when the first button is clicked then one popup will appear everytime and when the second button is clicked no popup should appear ? (use the useEffect hook also along with the useState for counter)
+
+40. What is Routing and How to perform Routing in react ? (make 4 pages and perform Routing).
+
+41. How to perfrom Dynamic Routing ? (useParams hook).
+
+42. Discuss the disadvantages of Props Drilling ? How to overcome this in React ? (context API)
+
+43. What is Context API and how to pass the data in heirarchy by using context API ?
+
+44. 
+
+
 
